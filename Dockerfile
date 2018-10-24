@@ -8,7 +8,7 @@ USER $NB_UID
 
 RUN conda install --quiet -y 'nltk' && \
     conda install --quiet -y 'pyarrow' && \
-    conda install --quiet -y 'tensorflow=2.1.5' && \
+    conda install --quiet -y 'tensorflow=1.7.0' && \
     conda install --quiet -y 'tensorboard' && \
     conda install --quiet -y 'requests' && \
     conda install --quiet -y 'h5py' && \
