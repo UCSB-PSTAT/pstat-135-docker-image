@@ -10,6 +10,10 @@ RUN conda install --quiet -y 'nltk' && \
     conda install --quiet -y 'pyarrow' && \
     conda install --quiet -y 'tensorflow=1.7.0' && \
     conda install --quiet -y 'tensorboard' && \
+    conda install --quiet -y 'tensorframes' && \
+    conda install --quiet -y 'tensorflowonspark' && \
+    conda install --quiet -y 'jieba' && \
+    conda install --quiet -y 'sparkdl' && \
     conda install --quiet -y 'requests' && \
     conda install --quiet -y 'h5py' && \
     conda install --quiet -y 'keras=2.1.5' && \
